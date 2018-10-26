@@ -1,7 +1,9 @@
 <template>
   <div>
     <app-navigation/>
-    <nuxt/>
+    <section class="section">
+      <nuxt/>
+    </section>
   </div>
 </template>
 
