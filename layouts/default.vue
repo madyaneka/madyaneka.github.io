@@ -2,7 +2,9 @@
   <div>
     <app-navigation/>
     <section class="section">
-      <nuxt/>
+      <div class="container">
+        <nuxt/>
+      </div>
     </section>
   </div>
 </template>

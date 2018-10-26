@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <br><br><br><br><br>
     <div class="columns has-text-centered">
       <div class="column is-6 is-offset-3">
