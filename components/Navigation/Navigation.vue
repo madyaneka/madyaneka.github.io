@@ -11,17 +11,22 @@
           class="navbar-item">Home</nuxt-link>
 
         <a
+          :class="{ 'is-active': isToggleActive }"
           role="button"
           class="navbar-burger"
+          data-target="navbar-menu"
           aria-label="menu"
-          aria-expanded="false">
+          aria-expanded="false"
+          @click="isToggleActive = !isToggleActive">
           <span aria-hidden="true"/>
           <span aria-hidden="true"/>
           <span aria-hidden="true"/>
         </a>
       </div>
 
-      <div class="navbar-menu">
+      <div
+        :class="{ 'is-active': isToggleActive }"
+        class="navbar-menu">
         <div class="navbar-start">
           <nuxt-link
             to="/blog"
@@ -40,3 +45,13 @@
     </div>
   </nav>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      isToggleActive: false
+    }
+  }
+}
+</script>
