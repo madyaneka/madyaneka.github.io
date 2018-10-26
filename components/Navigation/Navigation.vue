@@ -24,6 +24,12 @@
       <div class="navbar-menu">
         <div class="navbar-start">
           <nuxt-link
+            to="/blog"
+            class="navbar-item"
+            active-class="is-active">
+            Blog
+          </nuxt-link>
+          <nuxt-link
             to="/about"
             class="navbar-item"
             active-class="is-active">
