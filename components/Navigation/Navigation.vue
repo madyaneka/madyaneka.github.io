@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar is-warning"
+    class="navbar is-dark"
     role="navigation"
     aria-label="main navigation">
     <div class="container">
@@ -25,7 +25,8 @@
         <div class="navbar-start">
           <nuxt-link
             to="/about"
-            class="navbar-item">
+            class="navbar-item"
+            active-class="is-active">
             About
           </nuxt-link>
         </div>
