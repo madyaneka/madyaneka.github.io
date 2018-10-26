@@ -19,5 +19,17 @@
         <span aria-hidden="true"/>
       </a>
     </div>
+
+    <div
+      class="navbar-menu">
+      <div
+        class="navbar-start">
+        <nuxt-link
+          to="/about"
+          class="navbar-item">
+          About
+        </nuxt-link>
+      </div>
+    </div>
   </nav>
 </template>
