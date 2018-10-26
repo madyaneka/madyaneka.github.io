@@ -4,7 +4,8 @@
       <div class="column is-8 is-offset-2">
         <app-post-preview
           v-for="post in 5"
-          :key="post"/>
+          :key="post"
+          :identity="post"/>
       </div>
     </div>
   </section>
