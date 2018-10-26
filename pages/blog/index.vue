@@ -1,13 +1,13 @@
 <template>
-  <app-post-preview/>
+  <app-post-list/>
 </template>
 
 <script>
-import PostPreview from '~/components/Post/PostPreview'
+import PostList from '~/components/Post/PostList'
 
 export default {
   components: {
-    appPostPreview: PostPreview
+    appPostList: PostList
   }
 }
 </script>
