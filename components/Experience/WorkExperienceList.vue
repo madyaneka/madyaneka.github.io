@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-warning">
+  <section class="hero is-success">
     <div class="hero-body">
       <div class="columns">
         <div

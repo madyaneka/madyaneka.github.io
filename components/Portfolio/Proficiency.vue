@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-warning">
+  <section class="hero is-success">
     <div class="container">
       <div class="hero-body">
         <div class="columns">
@@ -7,7 +7,7 @@
             <div class="card">
               <div class="card-content">
                 <div class="content has-text-centered">
-                  <p class="title">CSS</p>
+                  <p class="title has-text-grey-dark">CSS</p>
                   <hr>
                   <ul
                     class="is-marginless heading"
@@ -23,7 +23,7 @@
             <div class="card">
               <div class="card-content">
                 <div class="content has-text-centered">
-                  <p class="title">JavaScript</p>
+                  <p class="title has-text-grey-dark">JavaScript</p>
                   <hr>
                   <ul
                     class="is-marginless heading"
@@ -44,7 +44,7 @@
             <div class="card">
               <div class="card-content">
                 <div class="content has-text-centered">
-                  <p class="title">Python</p>
+                  <p class="title has-text-grey-dark">Python</p>
                   <hr>
                   <ul
                     class="is-marginless heading"
