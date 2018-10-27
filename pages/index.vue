@@ -10,67 +10,7 @@
         </div>
       </section>
       <hr>
-      <section class="hero is-warning">
-        <div class="container">
-          <div class="hero-body">
-            <div class="columns">
-              <div class="column">
-                <div class="card">
-                  <div class="card-content">
-                    <div class="content has-text-centered">
-                      <p class="title">CSS</p>
-                      <hr>
-                      <ul
-                        class="is-marginless heading"
-                        style="list-style: none">
-                        <li>Bulma</li>
-                        <li>Bootstrap</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="column">
-                <div class="card">
-                  <div class="card-content">
-                    <div class="content has-text-centered">
-                      <p class="title">JavaScript</p>
-                      <hr>
-                      <ul
-                        class="is-marginless heading"
-                        style="list-style: none">
-                        <li>Vue</li>
-                        <li>Vue Resource</li>
-                        <li>Vue Router</li>
-                        <li>Vuex</li>
-                        <li>Vuepress</li>
-                        <li>Nuxt</li>
-                        <li>Axios</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="column">
-                <div class="card">
-                  <div class="card-content">
-                    <div class="content has-text-centered">
-                      <p class="title">Python</p>
-                      <hr>
-                      <ul
-                        class="is-marginless heading"
-                        style="list-style: none">
-                        <li>Odoo</li>
-                        <li>Django</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <app-proficiency/>
       <hr>
       <app-work-experience/>
     </div>
@@ -78,18 +18,13 @@
 </template>
 
 <script>
+import Proficiency from '~/components/Portfolio/Proficiency'
 import WorkExperience from '~/components/Experience/WorkExperience'
 
 export default {
   components: {
+    appProficiency: Proficiency,
     appWorkExperience: WorkExperience
   }
 }
 </script>
-
-
-<style scoped>
-.card {
-  height: 100%;
-}
-</style>
