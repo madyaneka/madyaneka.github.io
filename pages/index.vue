@@ -12,19 +12,19 @@
       <hr>
       <app-proficiency/>
       <hr>
-      <app-work-experience/>
+      <app-work-experience-list/>
     </div>
   </div>
 </template>
 
 <script>
 import Proficiency from '~/components/Portfolio/Proficiency'
-import WorkExperience from '~/components/Experience/WorkExperience'
+import WorkExperienceList from '~/components/Experience/WorkExperienceList'
 
 export default {
   components: {
     appProficiency: Proficiency,
-    appWorkExperience: WorkExperience
+    appWorkExperienceList: WorkExperienceList
   }
 }
 </script>
