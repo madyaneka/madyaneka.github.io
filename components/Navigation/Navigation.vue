@@ -34,12 +34,6 @@
             active-class="is-active">
             Blog
           </nuxt-link>
-          <nuxt-link
-            to="/about"
-            class="navbar-item"
-            active-class="is-active">
-            About
-          </nuxt-link>
         </div>
       </div>
     </div>
