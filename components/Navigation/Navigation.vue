@@ -30,8 +30,7 @@
         <div class="navbar-start">
           <nuxt-link
             to="/blog"
-            class="navbar-item"
-            active-class="is-active">
+            class="navbar-item">
             Blog
           </nuxt-link>
         </div>

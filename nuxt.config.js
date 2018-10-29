@@ -69,5 +69,9 @@ module.exports = {
         })
       }
     }
+  },
+
+  router: {
+    linkExactActiveClass: 'is-active'
   }
 }
