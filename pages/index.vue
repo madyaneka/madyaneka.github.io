@@ -1,7 +1,7 @@
 <template>
   <div class="columns">
     <div class="column">
-      <section class="hero is-success">
+      <section class="hero is-primary">
         <div class="container">
           <div class="hero-body">
             <h1 class="title">Madyan Eka Septian</h1>
